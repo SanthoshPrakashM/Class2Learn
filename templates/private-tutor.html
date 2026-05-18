@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Private Tutors - Class2Learn</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/global_styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" type="image/png" href="../assets/home/C2L Fav.png">
+</head>
+<body>
+  <div data-include="../components/header.html"></div>
+  <main id="private-class" class="private-tutor">
+    <section class="hero-section">
+      <div>
+        <div class="hero_pvt__visuals">
+          <img src="../assets/private-tutor/private-tutor-banner.png" alt="Contact Banner"
+          style=" width: 100%; margin: 0 auto; ">
+        </div>
+      </div>
+    </section>
+
+    <section class="experts-section">
+      <div class="container">
+        <div id="private-section-header">
+          <h2 class="eyebrow"><span>Private Tutors</span></h2>
+          <p id="breadcrumbs"><a href="../templates/index.html">Home / </a>Private Tutors</p>
+        </div>
+
+        <div class="expert-filter-bar">
+          <div class="expert-filter-bar__search">
+            <input id="tutorKeyword" type="search" placeholder="Search with Keyword" aria-label="Search tutors by keyword">
+            <button id="resetFilters" type="button" class="button button--reset">RESET</button>
+          </div>
+
+          <div class="expert-filter-bar__controls">
+            <div class="filter-control">
+              <label class="sr-only" for="filterGrade">Grade</label>
+              <select id="filterGrade">
+                <option value="" disabled selected>Grade</option>
+                <option value="grade-1">Grade 1</option>
+                <option value="grade-2">Grade 2</option>
+                <option value="grade-3">Grade 3</option>
+                <option value="grade-4">Grade 4</option>
+              </select>
+            </div>
+
+            <div class="filter-control">
+              <label class="sr-only" for="filterSubject">Subject</label>
+              <select id="filterSubject">
+                <option value="" disabled selected>Subject</option>
+                <option value="math">Math</option>
+                <option value="science">Science</option>
+                <option value="english">English</option>
+                <option value="physics">Physics</option>
+              </select>
+            </div>
+
+            <div class="filter-control">
+              <label class="sr-only" for="filterExperience">Experience</label>
+              <select id="filterExperience">
+                <option value="" disabled selected>Experience</option>
+                <option value="1-3">1-3 Years</option>
+                <option value="4-7">4-7 Years</option>
+                <option value="8-12">8-12 Years</option>
+                <option value="12+">12+ Years</option>
+              </select>
+            </div>
+
+            <div class="filter-control">
+              <label class="sr-only" for="filterRate">Hourly Rate</label>
+              <select id="filterRate">
+                <option value="" disabled selected>Hourly Rate</option>
+                <option value="under-20">Under $20</option>
+                <option value="20-40">$20 - $40</option>
+                <option value="40-60">$40 - $60</option>
+                <option value="60+">$60+</option>
+              </select>
+            </div>
+
+            <div class="filter-control">
+              <label class="sr-only" for="filterSort">Sort</label>
+              <select id="filterSort">
+                <option value="" disabled selected>Sort</option>
+                <option value="rating">Top Rated</option>
+                <option value="experience">Most Experienced</option>
+                <option value="rate-low">Lowest Rate</option>
+                <option value="rate-high">Highest Rate</option>
+              </select>
+            </div>
+
+            <button id="applyFilters" type="button" class="button button--primary">APPLY</button>
+          </div>
+        </div>
+        <div class="expert-grid">
+          <article class="expert-card">
+            <div class="expert-card__photo expert-card__photo--one">
+              <img src="../assets/home/Luis Felipe.png" alt="Luis Felipe">
+            </div>
+            <div class="expert-card__body">
+              <h3>Luis Felipe</h3>
+              <p>B.A. Economics. B.A. Musical Arts. , Universidad San Francisco de.....</p>
+              <div class="hero__actions">
+                <a class="button button--large" href="../templates/tutor-profile.html">Free Trial</a>
+                <a class="button button--outline button--large" href="../templates/tutor-profile.html">Book Now</a>
+              </div>
+            </div>
+          </article>
+          <article class="expert-card">
+            <div class="expert-card__photo expert-card__photo--two">
+              <img src="../assets/home/Charlotte.png" alt="Charlotte">
+            </div>
+            <div class="expert-card__body">
+              <h3>Charlotte</h3>
+              <p>Science Tutor 18+ Years Exp.</p>
+              <div class="hero__actions">
+                <a class="button button--large" href="../templates/tutor-profile.html">Free Trial</a>
+                <a class="button button--outline button--large" href="../templates/tutor-profile.html">Book Now</a>
+              </div>
+            </div>
+          </article>
+          <article class="expert-card">
+            <div class="expert-card__photo expert-card__photo--three">
+              <img src="../assets/home/Raquel.png" alt="Raquel">
+            </div>
+            <div class="expert-card__body">
+              <h3>Raquel</h3>
+              <p>English specialist 7 Years Exp.</p>
+              <div class="hero__actions">
+                <a class="button button--large" href="../templates/tutor-profile.html">Free Trial</a>
+                <a class="button button--outline button--large" href="../templates/tutor-profile.html">Book Now</a>
+              </div>
+            </div>
+          </article>
+          <article class="expert-card">
+            <div class="expert-card__photo expert-card__photo--four">
+              <img src="../assets/home/Gabriel.png" alt="Gabriel">
+            </div>
+            <div class="expert-card__body">
+              <h3>Gabriel</h3>
+              <p>Physics Tutor 12+ Years Exp.</p>
+              <div class="hero__actions">
+                <a class="button button--large" href="../templates/tutor-profile.html">Free Trial</a>
+                <a class="button button--outline button--large" href="../templates/tutor-profile.html">Book Now</a>
+              </div>
+            </div>
+          </article>
+          <article class="expert-card">
+            <div class="expert-card__photo expert-card__photo--one">
+              <img src="../assets/home/Luis Felipe.png" alt="Luis Felipe">
+            </div>
+            <div class="expert-card__body">
+              <h3>Luis Felipe</h3>
+              <p>Maths Expert 10+ Years Exp.</p>
+              <div class="hero__actions">
+                <a class="button button--large" href="../templates/tutor-profile.html">Free Trial</a>
+                <a class="button button--outline button--large" href="../templates/tutor-profile.html">Book Now</a>
+              </div>
+            </div>
+          </article>
+          <article class="expert-card">
+            <div class="expert-card__photo expert-card__photo--two">
+              <img src="../assets/home/Charlotte.png" alt="Charlotte">
+            </div>
+            <div class="expert-card__body">
+              <h3>Charlotte</h3>
+              <p>Science Tutor 18+ Years Exp.</p>
+              <div class="hero__actions">
+                <a class="button button--large" href="../templates/tutor-profile.html">Free Trial</a>
+                <a class="button button--outline button--large" href="../templates/tutor-profile.html">Book Now</a>
+              </div>
+            </div>
+          </article>
+          <article class="expert-card">
+            <div class="expert-card__photo expert-card__photo--three">
+              <img src="../assets/home/Raquel.png" alt="Raquel">
+            </div>
+            <div class="expert-card__body">
+              <h3>Raquel</h3>
+              <p>English specialist 7 Years Exp.</p>
+              <div class="hero__actions">
+                <a class="button button--large" href="../templates/tutor-profile.html">Free Trial</a>
+                <a class="button button--outline button--large" href="../templates/tutor-profile.html">Book Now</a>
+              </div>
+            </div>
+          </article>
+          <article class="expert-card">
+            <div class="expert-card__photo expert-card__photo--four">
+              <img src="../assets/home/Gabriel.png" alt="Gabriel">
+            </div>
+            <div class="expert-card__body">
+              <h3>Gabriel</h3>
+              <p>Physics Tutor 12+ Years Exp.</p>
+              <div class="hero__actions">
+                <a class="button button--large" href="../templates/tutor-profile.html">Free Trial</a>
+                <a class="button button--outline button--large" href="../templates/tutor-profile.html">Book Now</a>
+              </div>
+            </div>
+          </article>
+          <article class="expert-card">
+            <div class="expert-card__photo expert-card__photo--one">
+              <img src="../assets/home/Luis Felipe.png" alt="Luis Felipe">
+            </div>
+            <div class="expert-card__body">
+              <h3>Luis Felipe</h3>
+              <p>Maths Expert 10+ Years Exp.</p>
+              <div class="hero__actions">
+                <a class="button button--large" href="../templates/tutor-profile.html">Free Trial</a>
+                <a class="button button--outline button--large" href="../templates/tutor-profile.html">Book Now</a>
+              </div>
+            </div>
+          </article>
+          <article class="expert-card">
+            <div class="expert-card__photo expert-card__photo--two">
+              <img src="../assets/home/Charlotte.png" alt="Charlotte">
+            </div>
+            <div class="expert-card__body">
+              <h3>Charlotte</h3>
+              <p>Science Tutor 18+ Years Exp.</p>
+              <div class="hero__actions">
+                <a class="button button--large" href="../templates/tutor-profile.html">Free Trial</a>
+                <a class="button button--outline button--large" href="../templates/tutor-profile.html">Book Now</a>
+              </div>
+            </div>
+          </article>
+          <article class="expert-card">
+            <div class="expert-card__photo expert-card__photo--three">
+              <img src="../assets/home/Raquel.png" alt="Raquel">
+            </div>
+            <div class="expert-card__body">
+              <h3>Raquel</h3>
+              <p>English specialist 7 Years Exp.</p>
+              <div class="hero__actions">
+                <a class="button button--large" href="../templates/tutor-profile.html">Free Trial</a>
+                <a class="button button--outline button--large" href="../templates/tutor-profile.html">Book Now</a>
+              </div>
+            </div>
+          </article>
+          <article class="expert-card">
+            <div class="expert-card__photo expert-card__photo--four">
+              <img src="../assets/home/Gabriel.png" alt="Gabriel">
+            </div>
+            <div class="expert-card__body">
+              <h3>Gabriel</h3>
+              <p>Physics Tutor 12+ Years Exp.</p>
+              <div class="hero__actions">
+                <a class="button button--large" href="../templates/tutor-profile.html">Free Trial</a>
+                <a class="button button--outline button--large" href="../templates/tutor-profile.html">Book Now</a>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="pagination">
+          <button id="prevBtn"><img src="../assets/adaptive-test/Arow.png" alt="Previous"></button>
+          <div id="pageNumbers"></div>
+          <button id="nextBtn"><img src="../assets/adaptive-test/Arow.png" alt="Next"></button>
+        </div>
+      </div>
+    </section>
+
+    <section id="private-tutor-last">
+      <div class="container why-section__inner">
+        <div class="section-copy">
+          <h2 class="eyebrow"><span>Guidance</span><br>That Makes a Difference</h2>
+          <p>Our expert tutors support every step of your child’s learning journey with care and clarity.</p>
+          <div class="cta-actions__buttons">
+            <a class="button button--large" href="#">Demo Session &rsaquo;</a>
+            <a class="button button--large" href="#">Register Now &rsaquo;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div data-include="../components/footer.html"></div>
+  <script src="../js/script.js"></script>
+</body>
+</html>

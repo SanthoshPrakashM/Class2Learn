@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tutor Registration - Class2Learn</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/global_styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" type="image/png" href="../assets/home/C2L Fav.png">
+</head>
+<body>
+  <div data-include="../components/header.html"></div>
+  <main id="private-class" class="tutor-registration">
+    <section class="sign-in-section">
+      <div class="enquiry-wrapper" id="sign-in-up-form">
+        <div class="enquiry_contact">
+          <h1 class="eyebrow"><span>Tutor’s Registration</span></h1>
+          <form>
+            <div class="form-row">
+              <div class="form-group">
+                <input type="text" placeholder="First Name" required>
+              </div>
+
+              <div class="form-group">
+                <input type="text" placeholder="Last Name" required>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <input type="email" placeholder="Email" required>
+              </div>
+
+              <div class="form-group">
+                <input type="tel" placeholder="Phone" required pattern="[0-9]{10}" title="Please enter a 10-digit phone number">
+              </div>
+            </div>
+            <div class="form-group full">
+              <div class="checkbox-block">
+                <input type="checkbox" id="terms" required>
+                <label for="terms">I agree with the following statements: (Required)</label>
+              </div>
+              <ul class="agreement-list">
+                <li>I confirm that I am at least 18 years old.</li>
+                <li>I am eligible and authorized to work with students, including minors.</li>
+                <li>I possess strong proficiency in English, at a native or advanced (C2) level.</li>
+                <li>I am familiar with the technical requirements of the Class2Learn platform and agree to use it responsibly.</li>
+                <li>By registering as a tutor, I agree to abide by Class2Learn’s Terms & Conditions, Tutor Code of Conduct, and Data Protection Policy, ensuring a professional, secure, and responsible learning environment.</li>
+              </ul>
+            </div>
+
+            <div class="form-submit">
+              <button type="submit" class="button">Register to become a Tutor</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="why-adaptive">
+      <div class="container feature-grid">
+        <article class="feature-card card-1">
+          <div>
+            <img src="../assets/tutor-registration/Impact.png" alt="Make a Meaningful Impact">
+            <strong>Make a Meaningful Impact</strong>
+          </div>
+          <span>Boost your professional profile while helping students grow in confidence and achieve better results — with up to 75% of learners improving by as much as three grades. We connect you with students, so you can focus on what truly matters — building strong, transformative learning relationships.</span>
+        </article>
+        <article class="feature-card card-2">
+          <div>
+            <img src="../assets/tutor-registration/AI.png" alt="Teach Smarter with AI">
+            <strong>Teach Smarter with AI</strong>
+          </div>
+          <span>Streamline your lesson planning with our intelligent AI tools and deliver sessions seamlessly through our interactive virtual classroom. Access a wide range of engaging learning resources and communicate effortlessly with students and parents through a secure, integrated platform.</span>
+        </article>
+        <article class="feature-card card-3">
+          <div>
+            <img src="../assets/tutor-registration/Join commin.png" alt="Be Part of a Thriving Community">
+            <strong>Be Part of a Thriving Community</strong>
+          </div>
+          <span>Join a vibrant network of passionate tutors who are dedicated to making a real difference in students’ learning journeys. Collaborate, share insights, and grow alongside like-minded educators who value excellence and continuous improvement.</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="hero-section">
+      <div class="heading-content">
+          <h2 class="eyebrow"><span>Global Network</span><br>of Tutors & Students</h2>
+          <img src="../assets/tutor-registration/Map.png" alt=" Map showing global network of tutors and students">
+      </div>
+    </section>
+
+    <section class="tutor-registration-footer">
+      <div class="container why-section__inner">
+        <div class="section-copy">
+          <h2 class="eyebrow">Inspire Minds. <br><span>Shape Futures.</span></h2>
+          <div class="text-button">
+            <p>Share your expertise, empower students, and build a rewarding teaching experience.</p>
+          </div>
+          <div class="cta-actions__buttons" id="tutor-button">
+            <a class="button button--large" href="../templates/tutor-agreement.html">View Tutors’ Agreement</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div data-include="../components/footer.html"></div>
+  <script src="../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In - Class2Learn</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/global_styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" type="image/png" href="../assets/home/C2L Fav.png">
+</head>
+<body>
+  <div data-include="../components/header.html"></div>
+  <main id="private-class" class="sign-in-main">
+    <section class="sign-in-section">
+      <div class="enquiry-wrapper" id="sign-in-up-form">
+        <div class="enquiry_contact">
+          <h2 class="eyebrow"><span>Welcome to Class 2 Learn</span></h2>
+          <form>
+            <div class="form-group full">
+              <input type="email" placeholder="Email" required autofocus>
+            </div>
+
+            <div class="form-group full password-field">
+              <input type="password" placeholder="Password" required>
+              <i class="fa-solid fa-eye toggle-password"></i>
+            </div>
+
+            <div class="form-submit">
+              <button type="submit" class="button">SIGN IN</button>
+            </div>
+          </form>
+          <p class="yes-no-account">Don't have an account? <a href="../templates/signup.html">Sign Up</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="sign-in-footer">
+      <div class="container why-section__inner">
+        <div class="section-copy">
+          <h2 class="eyebrow"><span>Online Learning</span><br>Providing an Amazing Learning Experience</h2>
+          <div class="text-button">
+            <p>We equip teachers with the training and tools they need to teach at their best.</p>
+            <a class="button button--large" href="#cta">Learn More</a>
+          </div>
+          <div class="cta-actions__buttons">
+            <a class="button button--large" href="#">Demo Session &rsaquo;</a>
+            <a class="button button--large" href="#">Register Now &rsaquo;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div data-include="../components/footer.html"></div>
+  <script src="../js/script.js"></script>
+</body>
+</html>

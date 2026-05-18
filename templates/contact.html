@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Class2Learn</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/global_styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" type="image/png" href="../assets/home/C2L Fav.png">
+</head>
+<body>
+  <div data-include="../components/header.html"></div>
+  <main id="private-class" class="contact-us">
+    <section class="hero-section">
+      <div class="container hero-pvt">
+        <div class="hero_pvt__visuals">
+          <img src="../assets/contact/contact-banner.png" alt="Contact Banner"
+          style=" width: 80%; margin: 0 auto; ">
+        </div>
+      </div>
+    </section>
+    
+    <section class="why-adaptive">
+      <div class="action-card" id="action-contact">
+        <div class="action-card__content">
+          <img src="../assets/contact/Mail.png" alt="Email Support">
+          <p>Email Support</p>
+        </div>
+        <div class="action-card__content">
+          <img src="../assets/contact/Fast.png" alt="Fast Response">
+          <p>Fast Response</p>
+        </div>
+        <div class="action-card__content">
+          <img src="../assets/contact/Support.png" alt="Specialized Support">
+          <p>Specialized Support</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature-strips">
+      <div class="enquiry-wrapper" id="contact-form">
+        <div class="enquiry_contact">
+          <h2 class="eyebrow"><span>Let’s Connect</span></h2>
+          <p class="fill-form">Fill Out the Form Below</p>
+          <form>
+            <div class="form-group full">
+              <input type="text" placeholder="Name" required>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <input type="email" placeholder="Email" required>
+              </div>
+
+              <div class="form-group">
+                <input type="tel" placeholder="Phone" required pattern="[0-9]{10}" title="Please enter a 10-digit phone number">
+              </div>
+            </div>
+
+            <div class="form-group full">
+              <textarea placeholder="Your Message" rows="4"></textarea>
+            </div>
+
+            <div class="form-submit">
+              <button type="submit" class="button">SUBMIT</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="why-section" id="contact-last">
+      <div class="container why-section__inner">
+        <div class="section-copy">
+          <h2 class="eyebrow"><span>Parent's</span><br>Preferred Learning Platform</h2>
+          <h2 class="eyebrow"><span>Get Started Today!</span></h2>
+          <div class="cta-actions__buttons">
+            <a class="button button--large" href="#">Demo Session &rsaquo;</a>
+            <a class="button button--large" href="#">Register Now &rsaquo;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div data-include="../components/footer.html"></div>
+  <script src="../js/script.js"></script>
+</body>
+</html>
